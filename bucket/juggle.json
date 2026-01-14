@@ -1,28 +1,22 @@
 {
-    "version": "0.1.0",
-    "description": "Task management CLI for autonomous AI agent loops",
-    "homepage": "https://github.com/ohare93/juggle",
-    "license": "MIT",
+    "version": "0.2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ohare93/juggle/releases/download/v0.1.0/juggle_0.1.0_windows_amd64.zip",
-            "hash": "da4371a879b8f0231e771a4b7aa39552318801895e26d3c6122c3a7ea3206838"
+            "url": "https://github.com/ohare93/juggle/releases/download/v0.2.0/juggle_0.2.0_windows_amd64.zip",
+            "bin": [
+                "juggle.exe"
+            ],
+            "hash": "bef3bc02798bb07370def23196dc1c3c9cb8599f89b14025b08c49bdf18299c9"
         },
         "arm64": {
-            "url": "https://github.com/ohare93/juggle/releases/download/v0.1.0/juggle_0.1.0_windows_arm64.zip",
-            "hash": "4f9c7a732ee505561a908c40f13424b68ab7e5610a0e0ef2042098037b3ed0e3"
+            "url": "https://github.com/ohare93/juggle/releases/download/v0.2.0/juggle_0.2.0_windows_arm64.zip",
+            "bin": [
+                "juggle.exe"
+            ],
+            "hash": "7c54105f6ef36fcfae871e1dc8feba72b65443241a839f9d7cec0bcdff6565cc"
         }
     },
-    "bin": "juggle.exe",
-    "checkver": "github",
-    "autoupdate": {
-        "architecture": {
-            "64bit": {
-                "url": "https://github.com/ohare93/juggle/releases/download/v$version/juggle_$version_windows_amd64.zip"
-            },
-            "arm64": {
-                "url": "https://github.com/ohare93/juggle/releases/download/v$version/juggle_$version_windows_arm64.zip"
-            }
-        }
-    }
+    "homepage": "https://github.com/ohare93/juggle",
+    "license": "MIT",
+    "description": "Task management CLI for autonomous AI agent loops"
 }
