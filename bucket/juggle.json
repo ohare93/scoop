@@ -1,19 +1,19 @@
 {
-    "version": "0.2.1",
+    "version": "0.2.2",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/ohare93/juggle/releases/download/v0.2.1/juggle_0.2.1_windows_amd64.zip",
+            "url": "https://github.com/ohare93/juggle/releases/download/v0.2.2/juggle_0.2.2_windows_amd64.zip",
             "bin": [
                 "juggle.exe"
             ],
-            "hash": "95bfee5fa2baadb52e33fd79008150707fc55c20443b36d304746767345f5243"
+            "hash": "1a08834e868b4c60ae097b954fd9dd4827a85b0448c70a0ae594ca46a4d80c8a"
         },
         "arm64": {
-            "url": "https://github.com/ohare93/juggle/releases/download/v0.2.1/juggle_0.2.1_windows_arm64.zip",
+            "url": "https://github.com/ohare93/juggle/releases/download/v0.2.2/juggle_0.2.2_windows_arm64.zip",
             "bin": [
                 "juggle.exe"
             ],
-            "hash": "51a9a368b98e605160d822d6e6e0f856012fbc0a73340a3fc66920b6ed5c2981"
+            "hash": "0a9382e7bcc8d4913127159192b52048e274534d636d7a9dbc912ed2fa280d62"
         }
     },
     "homepage": "https://github.com/ohare93/juggle",
