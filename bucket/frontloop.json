@@ -1,0 +1,22 @@
+{
+    "version": "1.0.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/ohare93/frontloop/releases/download/v1.0.0/frontloop_1.0.0_windows_amd64.zip",
+            "bin": [
+                "fl.exe"
+            ],
+            "hash": "e856277fbdcb0e67dd5964c7c36d68e195a81677648821b514251897dbb1008b"
+        },
+        "arm64": {
+            "url": "https://github.com/ohare93/frontloop/releases/download/v1.0.0/frontloop_1.0.0_windows_arm64.zip",
+            "bin": [
+                "fl.exe"
+            ],
+            "hash": "66f2275467187cbdee8d5831827e6ca77c9201f3c9d2bfb27ebcec4f41925cf3"
+        }
+    },
+    "homepage": "https://github.com/ohare93/frontloop",
+    "license": "MIT",
+    "description": "CLI for managing frontloop task queues"
+}
