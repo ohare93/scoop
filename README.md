@@ -1,11 +1,11 @@
-# ohare93 Scoop Bucket
+# jeprecated Scoop Bucket
 
 Personal Scoop bucket for Windows apps.
 
 ## Usage
 
 ```powershell
-scoop bucket add ohare93 https://github.com/ohare93/scoop
+scoop bucket add jeprecated https://github.com/jeprecated/scoop
 scoop install juggle
 ```
 
